@@ -4,7 +4,7 @@ function print_until (int $max)
 {
     if ($max < 0)
     {
-        print('Boulet !');
+        print "Boulet !\n";
         return false;
     }
     else
@@ -18,3 +18,5 @@ function print_until (int $max)
         return true;
     }
 }
+
+print_until(-5);

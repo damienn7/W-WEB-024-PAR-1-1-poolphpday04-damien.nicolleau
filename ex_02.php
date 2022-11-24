@@ -2,12 +2,12 @@
 
 function print_status($age)
 {
-    if ($age <= 18)
+    if ($age >= 18)
     {
-        print('Vous pouvez entrer !');
+        print("Vous pouvez entrer !\n");
     }
     else
     {
-        print('Site interdit aux mineurs.');
+        print("Site interdit aux mineurs.\n");
     }
 }
