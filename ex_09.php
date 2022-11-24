@@ -1,2 +1,27 @@
 <?php
 
+function multiples(int $nb)
+{   $multiples=false;
+    $i=0;
+    while ($multiples!=true)
+    {
+        $to_print=$nb*$i;
+        //print "$to_print\n";
+        $i++;
+        $to_print=$nb*$i;
+        if($to_print>0 && $to_print<200000)
+        {
+            print "$to_print\n";
+        }
+        elseif ($to_print == 0 || $to_print == 200000) {
+            print $to_print;
+            $multiples = true;
+        }
+        else
+        {
+            $multiples = true;
+        }
+    }
+}
+
+multiples(40);
