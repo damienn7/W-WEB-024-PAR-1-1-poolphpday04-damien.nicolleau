@@ -6,7 +6,6 @@ function multiples(int $nb)
     while ($multiples!=true)
     {
         $to_print=$nb*$i;
-        //print "$to_print\n";
         $i++;
         $to_print=$nb*$i;
         if($to_print>0 && $to_print<200000)
@@ -14,7 +13,7 @@ function multiples(int $nb)
             print "$to_print\n";
         }
         elseif ($to_print == 0 || $to_print == 200000) {
-            print $to_print;
+            print "$to_print\n";
             $multiples = true;
         }
         else
