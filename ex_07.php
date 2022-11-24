@@ -1,6 +1,6 @@
 <?php
 
-function aff_array($arr)
+function aff_array(array $arr)
 {
     $count = 0;
     foreach ($arr as $key => $value)
@@ -8,6 +8,5 @@ function aff_array($arr)
         echo "{$value}\n";
         $count++;
     }
-
     return $count;
 }
