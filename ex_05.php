@@ -1,5 +1,4 @@
 <?php
-
 function print_range (int $min)
 {
     switch ($min):
@@ -20,7 +19,5 @@ function print_range (int $min)
             }while ($min<42);
             break;
     endswitch;
-
     return $bool;
 }
-
