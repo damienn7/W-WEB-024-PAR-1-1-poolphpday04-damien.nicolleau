@@ -1,6 +1,6 @@
 <?php
 
-function print_until (int $max)
+function print_until(int $max)
 {
     if ($max < 0)
     {
