@@ -22,5 +22,3 @@ function multiples(int $nb)
         }
     }
 }
-
-multiples(40);
