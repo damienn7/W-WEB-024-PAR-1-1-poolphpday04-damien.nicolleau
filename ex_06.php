@@ -8,5 +8,5 @@ function get_angry_bird(int $nbr)
         $chaine=$chaine.$piou;
     }
     $chaine=$chaine."\n";
-    echo $chaine;
+    return $chaine;
 }
