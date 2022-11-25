@@ -2,5 +2,5 @@
 
 function require_file(string $filename)
 {
-    include $filename.'.php';
+    include $filename;
 }

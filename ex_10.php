@@ -15,6 +15,9 @@ function print_film_from_nbr(int $nbr)
         case 28:
             print "28 ans plus tard\n";
             break;
+        case 0:
+            print "l'homme invisible\n";
+            break;
         default:
             print "Je ne connais pas.\n";
             break;

@@ -1,23 +1,15 @@
 <?php
-function print_range (int $min)
+function print_range ($min)
 {
-    switch ($min):
-        case $min === 42:
-            $bool=TRUE;
-            break;
-        case $min > 42:
-            print "$min\n";
-            break;
-        case $min != 42:
-            $bool=FALSE;
-            break;
-        case $min < 42:
+    $condition1=$min == 42 ? true : false;
             do
             {
                 print "$min\n";
                 $min++;
-            }while ($min<42);
-            break;
-    endswitch;
-    return $bool;
+            }while ($min<=42);
+    print ($min>42) ? "42" : "";
+    //var_dump($condition1);
+    return $condition1;
 }
+
+//print_range(42);
